@@ -24,7 +24,7 @@ jobs:
         context: .
     
     - name: Authenticate with Google Cloud
-      uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+      uses: google-github-actions/setup-gcloud@v2
       with:
         version: 'latest'
         service_account_key: ${{ secrets.GCP_SA_KEY }} # Set this secret in your repository's settings

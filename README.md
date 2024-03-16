@@ -19,3 +19,4 @@ gcloud auth configure-docker
 
 
 docker push gcr.io/teak-facet-417311/php-ci-cd
+
